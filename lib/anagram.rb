@@ -9,10 +9,10 @@ class Anagram
             #new_array = []
             possible.select do |a|
                 #binding.pry
-                # if 
+                #if 
                     a.split("").sort == @word.split("").sort
                    # a
-                end
+                
                 end
                 # possible
         end
