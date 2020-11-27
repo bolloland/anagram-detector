@@ -4,7 +4,7 @@ class Anagram
         def initialize(word)
             @word = word
         end
-          
+  
         def match(possible)
             #new_array = []
             possible.select do |a|
@@ -12,9 +12,7 @@ class Anagram
                 #if 
                     a.split("").sort == @word.split("").sort
                    # a
-                
-                end
-                # possible
         end
-
+                # possible
+    end
 end
